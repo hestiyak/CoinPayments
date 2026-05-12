@@ -1,0 +1,30 @@
+{
+    "name": "adindazu/coinpayments",
+    "description": "CoinPayments - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coinpayments\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coinpayments\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adindazu"
+        }
+    ]
+}
